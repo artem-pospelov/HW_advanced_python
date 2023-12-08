@@ -9,7 +9,7 @@ st.subheader('В рамках данного анализ рассматрива
 st.write('Подготовил: Поспелов Артем Алексеевич')
 
 #Выгрузим уже предобработанные данные
-df = st.cache_data(pd.read_csv)("/Users/artempospelov/Desktop/bank_streamlit_hw/df_processed_hw1_streamlit.csv")
+df = st.cache_data(pd.read_csv)("df_processed_hw1_streamlit.csv")
 
 #Оставим только необходиме столбцы
 col = ['AGREEMENT_RK', 'TARGET', 'SOCSTATUS_WORK_FL', 'SOCSTATUS_PENS_FL',
